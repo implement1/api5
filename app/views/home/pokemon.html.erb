@@ -1,0 +1,23 @@
+<h1>List of Pokemons</h1>
+
+<br /> <br />
+
+<ul>
+
+<li>
+<%= JSON.parse(@result.body)  %>
+</li> 
+
+</ul>
+
+
+<%= (@result.code)  %>
+
+<br /> <br />
+
+<%= (@result.message)  %>
+
+<br /> <br />
+
+
+<%=(@result.headers.inspect) %>
